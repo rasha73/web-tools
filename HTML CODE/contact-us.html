@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Norah Jones</title>
+    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+  </head>
+
+  <body>
+    <header>
+      <h1>Contact US</h1>
+    </header>
+    <nav>
+      <a href="index.html"> Home </a> |
+      <a href="gallery.html"> Gallery </a> |
+      <a href="about.html"> About Us </a> |
+      <a href="contact-us.html"> Contact </a> |
+      <a href="faq.html"> FAQs </a> |
+    </nav>
+    <header>
+      <h3>Send Norah Jones a Message</h3>
+    </header>
+    <fieldset>
+      <legend>Contact information</legend>
+      <form id="myMailerForm" action="mailto:e3640035@dcccd.edu" method="post">
+        <p>
+          <label title="Enter your last name.">LastName <input type="text" name="LastName" placeholder="LastName"></label>
+        </p>
+        <p>
+          <label title="Enter your first name.">FirstName <input type="text" name="FirstName" placeholder="FirstName"></label>
+        </p>
+        <p>
+          <label title="Enter your email address.">E-Mail <input type="text" name="Email" placeholder="Email"></label>
+        </p>
+        <p>
+          <label for="phone">Enter a phone number:</label>
+          <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autofocus required>
+        </p>
+        <h4>Optional</h4>
+        <p>
+          <label title="Select your age group.">Please pick your age group</label>
+          <select name="ageID">
+            <option value="">&larr;&nbsp;Select &nbsp;&rarr;</option>
+            <option value="1">15-19</option>
+            <option value="2">20-29</option>
+            <option value="3">30-39</option>
+            <option value="4">40-49</option>
+            <option value="5">49=59</option>
+            <option value="6">60-69</option>
+            <option value="7">70-79</option>
+            <option value="7">80+</option>
+          </select>
+        </p>
+        <p>
+          <label title="Select your gendar.">Which most closely describes your gender?</label>
+          <select name="gendarID">
+            <option value="">&larr;&nbsp;Select &nbsp;&rarr;</option>
+            <option value="1">Woman</option>
+            <option value="2">Man</option>
+            <option value="3">Transgender Woman</option>
+            <option value="4">Transgender Man</option>
+            <option value="5">Non-Binary</option>
+            <option value="6">Agender/I don't identify with any gender</option>
+            <option value="7">Prefer not to state</option>
+          </select>
+        </p>
+        <p>Have you attended any Norah Jones concerts?</p>
+        <p>
+        <label title="Select if you have a question.">Yes <input type="radio" name="request"></label>
+        <br>
+        <label title="Select if you have a comment.">No <input type="radio" name="request"></label>  
+        </p>
+        <p>
+        <label for="message">Type your message below:</label>
+        <textarea id="message" name="message"></textarea>
+        </p>
+        <p>
+          <input type="submit" value="Send">
+          <input type="reset" value="Clear">
+        </p>   
+  </form>
+  </fieldset>
+    
+    <hr>
+    <footer>
+      <p>References: https://en.wikipedia.org/wiki/Norah_Jones.</p>
+      <p>Last updated: 26 February 2023</p>
+      <a href="https://www.dallascollege.edu/pages/default.aspx"
+        >Dallas College Website</a
+      >
+    </footer>
+  </body>
+</html>
