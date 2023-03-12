@@ -13,7 +13,13 @@ nav {
   color: #8A8AEF;
   padding-left: 1em;
 }
-
+body {
+  width: 100%;
+  height: 100%;
+  float: left;
+  background-color: #E0E0FB;
+  color: black;  
+}
 a {
   color: #090934
 }
@@ -31,13 +37,7 @@ main {
 
 }
 
-body {
-  width: 100%;
-  height: 100%;
-  float: left;
-  background-color: #E0E0FB;
-  color: black;  
-}
+
 
 p,li,dd,dt,td {
   font-size: 14px;
