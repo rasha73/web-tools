@@ -58,9 +58,9 @@ main {
 }
 
 nav {
-width: 15%;
-min-width: 12em;
-float: left;
+  width: 15%;
+  min-width: 12em;
+  float: left;
 }
 body {
   width: 100%;
@@ -70,19 +70,20 @@ body {
   color: white;  
 }
 main {
-width: 100%;
-max-width: 1200px;
+  width: 100%;
+  max-width: 1200px;
 }
 article {
-box-sizing: border-box;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-height: auto;
-width: 90%;
-margin: 25px;
-padding: 25px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: auto;
+  width: 90%;
+  margin: 25px;
+  padding: 25px;
   background-color: #a6a642;
 }
+
 footer {
   padding: 1vw;
   text-align: center;
