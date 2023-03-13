@@ -1,44 +1,6 @@
 * {
   box-sizing: border-box;
 }
-header {
-  width: 100%;
-  height: 20%;
-  background-color: #6e6e30;
-  color: white;
-  padding: 1em;
-}
-
-nav {
-  width: 100%;
-  height: 1.5em;
-  background-color:  #6e6e30;
-  padding-left: 1em;
-}
-  a:link {color:white;} /* unvisited link */
-	a:visited {color:black;} /* visited link */
-	a:hover {color: #b9c704;} /* mouse over link */
-	a:active {color:#ecfa37;}  /* selected link */
-
-main {
-  width: 80%;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: white;
-  padding-left: 2em;
-  padding-top: 2em;
-  padding-right: 2em;
-  padding-bottom: 2em;
-}
-
-body {
-  width: 100%;
-  height: 100%;
-  float: left;
-  background-color: #fafdcd;
-  color: white;  
-}
 
 p,li,dd,dt,td,figure,a {
   font-size: 20px;
@@ -49,26 +11,6 @@ p,li,dd,dt,td,h1,h2,h3,h4,nav,figure,a {
 a {
   color : white;
   font-size: 25px;
-}
-
-footer {
-  width: 100%;
-  height: 20%;
-  clear: both;
-  background-color: #6e6e30;
-  color: white;
-  text-align: center;
-  padding-top: .5em;
-}
-article {
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	height: auto;
-	width: 90%;
-	margin: 25px;
-	padding: 25px;
-  background-color: #a6a642;
 }
 
 h2.special {
