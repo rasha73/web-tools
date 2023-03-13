@@ -1,55 +1,81 @@
+* {
+  box-sizing: border-box;
+}
 header {
   width: 100%;
   height: 20%;
-  background-color: #2E2FE3;
-  color: #8A8AEF;
+  background-color: #5c6302;
+  color: white;
   padding: 1em;
 }
 
 nav {
   width: 100%;
   height: 1.5em;
-  background-color: #2E2FE3;
-  color: #8A8AEF;
+  background-color:  #5c6302;
   padding-left: 1em;
 }
+
+main {
+  width: 80%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding-left: 2em;
+  padding-top: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+
+}
+
 body {
   width: 100%;
   height: 100%;
   float: left;
-  background-color: #E0E0FB;
-  color: black;  
-}
-a {
-  color: #090934
+  background-color: #fafdcd
+  ;
+  color: white;  
 }
 
-
-
-
-
-p,li,dd,dt,td {
-  font-size: 14px;
+p,li,dd,dt,td,figure,a {
+  font-size: 20px;
 }
-p,li,dd,dt,td,h1,h2,h3,h4,nav,a {
+p,li,dd,dt,td,h1,h2,h3,h4,nav,figure,a {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+a {
+  color : white;
+  font-size: 25px;
+}
 footer {
   width: 100%;
-  height: 8em;
+  height: 20%;
   clear: both;
-  background-color: #090934;
-  color: #8A8AEF;
+  background-color: #5c6302;
+  color: white;
   text-align: center;
   padding-top: .5em;
+  
 }
-  a:link {color:#FF0000;} /* unvisited link */
-	a:visited {color:#00FF00;} /* visited link */
-	a:hover {color:#FF00FF;} /* mouse over link */
-	a:active {color:#0000FF;}  /* selected link */
+  a:link {color:white;} /* unvisited link */
+	a:visited {color:black;} /* visited link */
+	a:hover {color: #b9c704;} /* mouse over link */
+	a:active {color:#ecfa37;}  /* selected link */
+
+
+article {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height: auto;
+	width: 90%;
+	margin: 25px;
+	padding: 25px;
+  background-color: #5c6302;
+}
 
 h2.special {
-		color:  #2C2CE8;
+    color:  #2C2CE8;
     font-family: "Sofia", sans-serif;
-  }
+}
