@@ -1,20 +1,21 @@
-* {
-  box-sizing: border-box;
-}
-
 header {
   background-color: #6e6e30;
-  color: white;
+  color: black;
 }
 
 p,li,dd,dt,td,figure,a {
-  font-size: 20px;
+  font-size: 18px;
+  font-style:normal;
+  font-weight:200;
 }
-p,li,dd,dt,td,h1,h2,h3,h4,nav,figure,a {
+h1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+p,li,dd,dt,td,h2,h3,h4,nav,figure,a {
   font-family: Arial, Helvetica, sans-serif;
 }
 a {
-  color : white;
+  color : rgb(150, 21, 21);
   font-size: 25px;
 }
 
@@ -24,8 +25,8 @@ main {
 
 body {
   
-  background-color: #fafdcd;
-  color: white;  
+  background-color: white;
+  color: black;  
 }
 
 article {
@@ -34,6 +35,12 @@ article {
 
 footer {
   background-color: #6e6e30;
-  color: white;
+  color: black;
+}
+.odd {
+  color:red;
+}
+.even {
+  color: green;
 }
 
