@@ -19,15 +19,18 @@ a {
   font-size: 25px;
 }
 /* Set nav to sticky or fixed */
-
+#navbar {
+  position: sticky;
+  top: 0px;
+}
 /* Add a black background color to the top navigation */
 .topnav {
-  position:sticky;
-  top: 0px;
+  
   background-color: black;
   margin: 0px;
   overflow: hidden;
 }
+
 
 /* Style the links inside the navigation bar */
 .topnav a {
