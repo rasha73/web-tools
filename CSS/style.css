@@ -22,30 +22,38 @@ a {
 
 /* Add a black background color to the top navigation */
 .topnav {
+  position:-webkit-sticky;
+  top: 0px;
   background-color: black;
-  position:sticky;
   margin: 0px;
-  top: 0;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+  font: topnav;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 18px;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  float: left;
+  display: inline-block
 
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #921717;
   color: black;
 }
 
+.topnav a:visited {
+  background-color: purple;
+  color: black;
+}
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #04aa6d;
