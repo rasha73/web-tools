@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 header {
   width: 100%;
   height: 30%;
@@ -34,51 +33,48 @@ header {
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #921717;
-  color: whitesmoke;
+.topnav a:link {
+  background-color: black;
+  color: gold;
 }
-
 .topnav a:visited {
   color:grey;
+}
+.topnav a:hover {
+  background-color: navy;
+  color: whitesmoke;
 }
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #04aa6d;
-  color: gold;
+  color: red;
 }
 
 body {
   width: 100%;
   height: 100%;
-  float: left;
 }
 
-main {
-  width: 80%;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2em;
-  padding-top: 2em;
-  padding-right: 2em;
-  padding-bottom: 2em;
-}
+
 
 article {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  height: auto;
-  width: 90%;
+  height: 100%;
+  width: 375px;
   margin: 25px;
   padding: 25px;
+  border: 2px navy solid;
+  background-color: white;
+  border-style: groove;
+  float: left;
 }
 
 img {
-  float: left;
+  float:left;
   max-width: 100%;
-  margin: 0 2% 0 2%;
+  margin-left: 0;
   position: relative;
 }
 
