@@ -41,13 +41,13 @@ header {
   color:grey;
 }
 .topnav a:hover {
-  background-color: navy;
-  color: whitesmoke;
+  background-color: grey;
+  color: gold;
 }
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04aa6d;
-  color: red;
+  background-color: purple;
+  color: purple;
 }
 
 body {
