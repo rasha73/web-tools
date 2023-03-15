@@ -29,7 +29,7 @@ header {
   box-sizing: border-box;
   float: left;
   display: inline-block
-
+  
 }
 
 /* Change the color of links on hover */
@@ -55,8 +55,6 @@ body {
   height: 100%;
 }
 
-
-
 article {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -65,10 +63,13 @@ article {
   width: 375px;
   margin: 25px;
   padding: 25px;
-  border: 2px navy solid;
   background-color: white;
   border-style: groove;
   float: left;
+  display: block;
+  border: solid medium #092834;
+  border-radius: 10px;
+  margin-top: 1vw;
 }
 
 img {
@@ -76,8 +77,19 @@ img {
   max-width: 100%;
   margin-left: 0;
   position: relative;
-}
 
+}
+figure img {
+  display: block;
+  height: 185px;
+  width: 185px;
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption {
+  clear: both;
+  color: #2e6c85;
+}
 footer {
   text-align: center;
   width: 100%;
