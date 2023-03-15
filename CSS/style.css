@@ -105,11 +105,12 @@ img {
 }
 
 footer {
-  clear: both;
   text-align: center;
   width: 100%;
   height: auto;
   text-align: center;
+  clear: both;
+  
 }
 
 
