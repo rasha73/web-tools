@@ -10,7 +10,7 @@ header {
 /* Add a black background color to the top navigation */
 .topnav {
   width: 100%;
-  position: sticky;
+  position: fixed;
   top: 0px;
   background-color: black;
   margin: 0px;
