@@ -8,7 +8,10 @@ a {
   color : white;
   font-size: 25px;
 }
-
+header {
+  background-color: black;
+  color: white;
+}
 body {
   background-color: skyblue;
 }
