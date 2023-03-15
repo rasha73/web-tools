@@ -22,7 +22,7 @@ a {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  position:-webkit-sticky;
+  position:sticky;
   top: 0px;
   background-color: black;
   margin: 0px;
@@ -31,7 +31,6 @@ a {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  font: topnav;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -47,17 +46,16 @@ a {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #921717;
-  color: black;
+  color: whitesmoke;
 }
 
 .topnav a:visited {
-  background-color: purple;
-  color: black;
+  color:grey;
 }
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #04aa6d;
-  color: white;
+  color: gold;
 }
 
 body {
