@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 30%;
+  padding: 1em;
+}
+/* Set nav to sticky or fixed */
+/* Add a black background color to the top navigation */
+.topnav {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: black;
+  margin: 0px;
+  overflow: hidden;
+  left: 0px;
+  z-index: 1;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  float: left;
+  display: inline-block
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:link {
+  background-color: black;
+  color: gold;
+}
+.topnav a:visited {
+  color:grey;
+}
+.topnav a:hover {
+  background-color: grey;
+  color: gold;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: purple;
+  color: purple;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+.flex-container {
+  display: flex;
+}
+article {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 100%;
+  width: 375px;
+  margin: 25px;
+  padding: 25px;
+  background-color: white;
+  border-style: groove;
+  float: left;
+  display: block;
+  border: solid medium #092834;
+  border-radius: 10px;
+  margin-top: 1vw;
+}
+
+img {
+  float:left;
+  max-width: 100%;
+  margin-left: 0;
+  position: relative;
+
+}
+figure img {
+  display: block;
+  height: 185px;
+  width: 185px;
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption {
+  clear: both;
+  color: #2e6c85;
+}
+footer {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  clear: both;
+  
+}
