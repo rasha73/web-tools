@@ -1,6 +1,7 @@
-p,li,dd,dt,td,figure,a {
-  font-size: 14px;
+p,li,dd,dt,td,figure {
+  font-size: 16px;
 }
+
 p,li,dd,dt,td,h1,h2,h3,h4,figure,a {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -9,7 +10,8 @@ p,li,dd,dt,td,h1,h2,h3,h4,figure,a {
 }
 a {
   color : white;
-  font-size: 25px;
+  font-size: 18px, center, bold;
+
 }
 header {
   background-color: black;
