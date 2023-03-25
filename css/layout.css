@@ -62,6 +62,9 @@ body {
 .flex-container {
   display: flex;
 }
+dl {
+  text-align: justify
+}
 p {
   text-align: justify
 }
