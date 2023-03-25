@@ -62,6 +62,9 @@ body {
 .flex-container {
   display: flex;
 }
+p {
+  text-align: justify
+}
 article {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
