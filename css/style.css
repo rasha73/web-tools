@@ -10,7 +10,7 @@ p,li,dd,dt,td,h1,h2,h3,h4,figure,a {
 }
 a {
   color : white;
-  font-size: 18px, center, bold;
+  font-size: 18px;
 
 }
 header {
