@@ -38,7 +38,7 @@ header {
 /* Change the color of links on hover */
 .topnav a:link {
   background-color: black;
-  color: gold;
+  color: olive;
 }
 .topnav a:visited {
   color:grey;
@@ -48,9 +48,9 @@ header {
   color: gold;
 }
 /* Add a color to the active/current link */
-.topnav a.active {
-  background-color: purple;
-  color: purple;
+.topnav a:active {
+  background-color: white;
+  color: red;
 }
 
 body {
